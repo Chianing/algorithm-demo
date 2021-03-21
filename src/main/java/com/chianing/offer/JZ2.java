@@ -24,11 +24,7 @@ public class JZ2 {
 
     }
 
-    public static String replaceBlankWithSign1(String str) {
-        return str.replaceAll(" ", "%20");
-    }
-
-    public static String replaceBlankWithSign(String str) {
+    private static String replaceBlankWithSign(String str) {
         if (str == null) {
             return null;
         }

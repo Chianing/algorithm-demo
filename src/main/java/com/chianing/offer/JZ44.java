@@ -25,7 +25,7 @@ public class JZ44 {
 
     }
 
-    public static String getReverseStr(String str) {
+    private static String getReverseStr(String str) {
         if (str == null || "".equals(str)
                 || !str.contains(" ") || "".equals(str.trim())) {
             return str;

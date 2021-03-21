@@ -24,7 +24,7 @@ public class JZ43 {
 
     }
 
-    public static String concatStr(String str, int n) {
+    private static String concatStr(String str, int n) {
         if (str == null || "".equals(str) || n == 0 || n >= str.length()) {
             return str;
         }
