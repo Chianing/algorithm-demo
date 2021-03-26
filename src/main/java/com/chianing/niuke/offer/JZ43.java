@@ -1,4 +1,4 @@
-package com.chianing.offer;
+package com.chianing.niuke.offer;
 
 /**
  * title: JZ43 左旋转字符串

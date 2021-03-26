@@ -1,4 +1,4 @@
-package com.chianing.offer;
+package com.chianing.niuke.offer;
 
 import java.util.ArrayList;
 import java.util.Collections;

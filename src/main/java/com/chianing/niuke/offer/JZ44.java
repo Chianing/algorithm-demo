@@ -1,4 +1,4 @@
-package com.chianing.offer;
+package com.chianing.niuke.offer;
 
 /**
  * title: JZ44 	翻转单词顺序列
