@@ -5,15 +5,14 @@ import com.alibaba.fastjson.JSONObject;
 import com.chianing.leeCode.offer.structure.TreeNode;
 import com.chianing.test.tree.binary.solution.CommonSolution;
 import com.chianing.test.tree.binary.solution.RecursionSolution;
+import com.chianing.test.util.TreeUtil;
 
 import java.util.List;
 
 public class TreePrint {
 
-    private static TreeNode rootNode;
-
     public static void main(String[] args) {
-        initBinaryTree();
+        TreeNode rootNode = TreeUtil.initBinaryTree();
 
         // 递归遍历
         RecursionSolution recursionSolution = new RecursionSolution();
@@ -39,18 +38,4 @@ public class TreePrint {
 
     }
 
-    /*
-        3
-       / \
-      9  20
-        /  \
-       15   7
-     */
-    private static void initBinaryTree() {
-        rootNode = new TreeNode(3);
-        rootNode.left = new TreeNode(9);
-        rootNode.right = new TreeNode(20);
-        rootNode.right.left = new TreeNode(15);
-        rootNode.right.right = new TreeNode(7);
-    }
 }
