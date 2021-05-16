@@ -1,4 +1,4 @@
-package com.chianing.leeCode.offer.structure;
+package com.chianing.leeCode.structure;
 
 public class ListNode {
 

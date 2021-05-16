@@ -1,7 +1,7 @@
 package com.chianing.leeCode.offer;
 
 import com.alibaba.fastjson.JSONObject;
-import com.chianing.leeCode.offer.structure.ListNode;
+import com.chianing.leeCode.structure.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

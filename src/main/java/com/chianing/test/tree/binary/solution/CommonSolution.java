@@ -1,6 +1,6 @@
 package com.chianing.test.tree.binary.solution;
 
-import com.chianing.leeCode.offer.structure.TreeNode;
+import com.chianing.leeCode.structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;

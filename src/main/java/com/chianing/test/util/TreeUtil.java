@@ -1,6 +1,6 @@
 package com.chianing.test.util;
 
-import com.chianing.leeCode.offer.structure.TreeNode;
+import com.chianing.leeCode.structure.TreeNode;
 
 public class TreeUtil {
 

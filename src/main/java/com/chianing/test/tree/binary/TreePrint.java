@@ -2,7 +2,7 @@ package com.chianing.test.tree.binary;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.chianing.leeCode.offer.structure.TreeNode;
+import com.chianing.leeCode.structure.TreeNode;
 import com.chianing.test.tree.binary.solution.CommonSolution;
 import com.chianing.test.tree.binary.solution.RecursionSolution;
 import com.chianing.test.util.TreeUtil;

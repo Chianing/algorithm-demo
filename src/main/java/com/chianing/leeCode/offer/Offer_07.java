@@ -1,6 +1,6 @@
 package com.chianing.leeCode.offer;
 
-import com.chianing.leeCode.offer.structure.TreeNode;
+import com.chianing.leeCode.structure.TreeNode;
 
 import java.util.HashMap;
 
