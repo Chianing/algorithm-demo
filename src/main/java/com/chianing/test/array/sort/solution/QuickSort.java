@@ -24,15 +24,13 @@ public class QuickSort {
                 endCopy--;
             }
             if (startCopy < endCopy) {
-                arr[startCopy] = arr[endCopy];
-                startCopy++;
+                arr[startCopy++] = arr[endCopy];
             }
             while (arr[startCopy] < target && startCopy < endCopy) {
                 startCopy++;
             }
             if (startCopy < endCopy) {
-                arr[endCopy] = arr[startCopy];
-                endCopy--;
+                arr[endCopy--] = arr[startCopy];
             }
         }
         arr[startCopy] = target;
