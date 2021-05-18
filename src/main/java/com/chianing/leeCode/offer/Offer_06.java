@@ -34,7 +34,7 @@ public class Offer_06 {
 
     private static final List<Integer> resultList = new ArrayList<>();
 
-    public static int[] reversePrint(ListNode head) {
+    private static int[] reversePrint(ListNode head) {
         if (head == null) {
             return new int[0];
         }

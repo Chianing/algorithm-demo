@@ -30,7 +30,7 @@ public class Offer_62 {
         System.out.printf("result is %s%n", lastRemaining(5, 3));
     }
 
-    public static int lastRemaining(int n, int m) {
+    private static int lastRemaining(int n, int m) {
         List<Integer> indexList = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             indexList.add(i);

@@ -23,7 +23,7 @@ public class Offer_07 {
     private static int[] preorderArr;
     private static final HashMap<Integer, Integer> dic = new HashMap<>();
 
-    public static TreeNode buildTree(int[] preorder, int[] inorder) {
+    private static TreeNode buildTree(int[] preorder, int[] inorder) {
         preorderArr = preorder;
         for (int i = 0; i < inorder.length; i++)
             dic.put(inorder[i], i);

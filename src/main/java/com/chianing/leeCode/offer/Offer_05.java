@@ -19,7 +19,7 @@ public class Offer_05 {
         System.out.printf("result is: %s%n", replaceSpace(str));
     }
 
-    public static String replaceSpace(String s) {
+    private static String replaceSpace(String s) {
         if (s == null || s.length() == 0) {
             return s;
         }

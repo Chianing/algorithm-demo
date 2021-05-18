@@ -25,7 +25,7 @@ public class Offer_10_02 {
         System.out.printf("n is: %s, result is: %s%n", 7, numWays(7));
     }
 
-    public static int numWays(int n) {
+    private static int numWays(int n) {
         if (n == 0 || n == 1) {
             return 1;
         }

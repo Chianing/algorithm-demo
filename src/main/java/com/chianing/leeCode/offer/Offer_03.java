@@ -26,7 +26,7 @@ public class Offer_03 {
         System.out.printf("result is: %s%n", findRepeatNumber3(nums));
     }
 
-    public static int findRepeatNumber(int[] nums) {
+    private static int findRepeatNumber(int[] nums) {
         Map<Integer, Integer> tempMap = new HashMap<>();
         for (int num : nums) {
             if (tempMap.get(num) != null) {
@@ -37,7 +37,7 @@ public class Offer_03 {
         return -1;
     }
 
-    public static int findRepeatNumber2(int[] nums) {
+    private static int findRepeatNumber2(int[] nums) {
         Set<Integer> tempSet = new HashSet<>();
         for (int num : nums) {
             if (!tempSet.add(num)) {
@@ -49,7 +49,7 @@ public class Offer_03 {
     }
 
     /* 依次为每个坑找萝卜 将当前坑号的萝卜 放到萝卜号对应的坑 如果遇到相同的值 直接返回 */
-    public static int findRepeatNumber3(int[] nums) {
+    private static int findRepeatNumber3(int[] nums) {
         int temp;
         for (int i = 0; i < nums.length; i++) {
             while (nums[i] != i) {

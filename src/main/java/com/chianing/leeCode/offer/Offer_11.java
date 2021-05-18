@@ -24,7 +24,7 @@ public class Offer_11 {
         System.out.printf("result2 is: %s%n", minArray(numbers2));
     }
 
-    public static int minArray(int[] numbers) {
+    private static int minArray(int[] numbers) {
         if (numbers.length == 0) {
             return -1;
         }

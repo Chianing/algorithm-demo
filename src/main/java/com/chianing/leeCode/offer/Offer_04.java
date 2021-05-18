@@ -36,14 +36,13 @@ public class Offer_04 {
 
     }
 
-    public static boolean findNumberIn2DArray(int[][] matrix, int target) {
+    private static boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
 
         // 二维数组边界
         int colMax = matrix.length - 1;
-        int rowMax = matrix[0].length - 1;
         // 右上角索引边界
         int colCurr = 0;
         int rowCurr = matrix[0].length - 1;
