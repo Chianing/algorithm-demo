@@ -31,7 +31,7 @@ public class Offer_12 {
     private static char[] words;
     private static char[][] boardCopy;
 
-    public static boolean exist(char[][] board, String word) {
+    private static boolean exist(char[][] board, String word) {
         if (board.length == 0 || board[0].length == 0 || word == null || "".equals(word)) {
             return false;
         }
