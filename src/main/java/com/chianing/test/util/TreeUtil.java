@@ -21,4 +21,21 @@ public class TreeUtil {
         return result;
     }
 
+    /*
+              5
+             / \
+            4   7
+           /   /
+          3   6
+     */
+    public static TreeNode initBinarySearchTree() {
+        TreeNode result = new TreeNode(5);
+        result.left = new TreeNode(4);
+        result.left.left = new TreeNode(3);
+        result.right = new TreeNode(7);
+        result.right.left = new TreeNode(6);
+
+        return result;
+    }
+
 }
