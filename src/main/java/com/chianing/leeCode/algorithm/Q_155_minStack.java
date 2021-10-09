@@ -31,7 +31,7 @@ minStack.getMin();   --> 返回 -2.
 提示：
 pop、top 和 getMin 操作总是在 非空栈 上调用。
  */
-public class Q_155_MinStack {
+public class Q_155_minStack {
 
     public static void main(String[] args) {
         MinStack minStack = new MinStack();
